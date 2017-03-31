@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-design",
+  "version": "1.0.1",
+  "description": "Sass HelloWorld 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "node-sass --watch --include-path scss scss/main.sass public/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.3.2"
+  },
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "extract-text-webpack-plugin": "^2.1.0"
+  }
+}
