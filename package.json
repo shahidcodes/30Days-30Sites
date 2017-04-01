@@ -1,0 +1,24 @@
+{
+  "name": "30days-30sites",
+  "version": "1.0.0",
+  "description": "This repository will be dedicated to all challenges came in #30Days30Sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahidkh4n/30Days-30Sites.git"
+  },
+  "author": "shahid kamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahidkh4n/30Days-30Sites/issues"
+  },
+  "homepage": "https://github.com/shahidkh4n/30Days-30Sites#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

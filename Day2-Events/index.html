@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <h1 class="heading">You're Invited to <br> <br>Impact</h1>
+            <a id="enroll-button" href="#enroll">Enroll Now</a>
+            <p id="date">
+                Comming Soon
+            </p>
+        </header>
+        <content>
+            <section id="what-is-it">
+                <h1>What is it?</h1>
+                <span>
+                    IMPACT is an annual technology and innovative fest happening on January 21st and 22nd at the JNTU Hyderabad campus. With a vision to create an Impact with the ever innovative technology, IMPACT 2017 brings home the very idea of Innovation meeting technology. With an ensemble of the greatest minds of the city and power talks involving innovation, technology and a start-up scope involved in the said domains. IMPACT tends to focus on bringing out a new and different culture for students and individuals altogether. It focuses on being the DAWN of a new kind of startup and technological culture thats been brewing around lately. IMPACT aims to be a perfect platform for student ideas and tries to nurture that innovative thought process and help them build towards their billion dollar dreams. IMPACT 2017 includes power talks, innovation-inducing workshops with hands-on experience and competitions (of various tech genres) which aim to bring out whatever an individual has been taught in the workshops. The IMPACT EXPO showcases a wide set of brilliant Expo of the latest technology that the mankind has its hands on.
+                </span>
+            </section>
+            
+            <section id="footer">
+                <div id="wrapper">
+                    <div id="quick-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#tickets">Tickets</a></li>
+                            <li><a href="#schedules">Schedules</a></li>
+                        </ul>
+                    </div>
+                    <div class="quick-contact">
+                        <h3>Quick Contact</h3>
+                        <p>
+                            Email: info@impactfest.in <br>
+                            For More Details Call: <br>
+                            <code>7671010861 | 9032172629</code>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div id="credits">
+                    Designed By <a target="_blank" href="https://shahidkamal.me">Shahid Khan</a>
+                </div>
+            </section>
+
+        </content>
+    </div>
+    </body>
+
+    <script>
+        $(()=>{
+            window.onscroll = function(){
+                let speed = '0.2'
+                let y = window.pageYOffset
+                console.log(y)
+                document.querySelector('.container').style.backgroundPosition = "50% " + (y * speed) + "px"
+            }
+        })
+    </script>
+</html>

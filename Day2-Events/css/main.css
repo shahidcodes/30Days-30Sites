@@ -1,0 +1,93 @@
+body {
+  margin: 0px; }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: black;
+  background: url("http://impactfest.in/impact/wp-content/uploads/2017/01/bg_2.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+header {
+  min-height: 15em;
+  position: relative; }
+
+header h1 {
+  font-family: "Revalia", cursive;
+  font-size: 5em;
+  text-align: center;
+  max-width: 100%;
+  flex: 1;
+  color: #FFEB3B; }
+
+header {
+  text-align: center; }
+  header a {
+    text-decoration: none;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid #fff;
+    color: #fff; }
+  header a:hover {
+    background-color: #fff;
+    color: black; }
+
+section {
+  font-family: 'Open Sans'; }
+
+#what-is-it {
+  margin-top: 4em;
+  background-color: #FFF9C4;
+  text-align: center;
+  padding: 3em; }
+  #what-is-it h1 {
+    color: #03A9F4;
+    font-size: 3em; }
+
+#footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 3em;
+  min-height: 13em; }
+  #footer #quick-links {
+    width: 49%;
+    float: left; }
+    #footer #quick-links ul {
+      padding: 0px;
+      list-style: none; }
+    #footer #quick-links a, #footer #quick-links li {
+      padding: 10px;
+      margin: 10px; }
+    #footer #quick-links a, #footer #quick-links a:visited {
+      text-decoration: none;
+      color: #03A9F4; }
+    #footer #quick-links a:hover {
+      color: #212121;
+      background: #fff; }
+  #footer #quick-contact {
+    width: 50%;
+    float: left; }
+
+#credits {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: #fff; }
+  #credits a {
+    color: #03A9F4;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #212121; }
+
+#date {
+  margin: 0px auto;
+  width: 50%;
+  font-size: 2em;
+  background-color: #212121;
+  color: #FFF;
+  padding: 1.5em;
+  margin-top: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }

@@ -1,4 +1,4 @@
-##\#30Days30Sites Logs
+#30Days30Sites Logs
 
     This repository will be dedicated to all challenges came in #30Days30Sites
     
