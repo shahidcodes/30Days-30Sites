@@ -8,4 +8,4 @@
 
 [Day1](https://shahidkh4n.github.io/30Days-30Sites/Day1-PortFolio/public/)
 
-[Day1](https://shahidkh4n.github.io/30Days-30Sites/Day2-Events)
+[Day2](https://shahidkh4n.github.io/30Days-30Sites/Day2-Events)
